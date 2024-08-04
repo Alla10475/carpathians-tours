@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url('../../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+    font-weight: 400 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Manrope", sans-serif;
+    src: url('../../fonts/Manrope/Manrope-VariableFont_wght.ttf');
+    font-weight: 400 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display", serif;
+    src: url('../../fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
