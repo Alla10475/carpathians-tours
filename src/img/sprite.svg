@@ -39,5 +39,8 @@
 <symbol id="icon-vector" viewBox="0 0 37 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M35.333 2.667l-23.333 26.667-10-10"></path>
 </symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.4" d="M4.8 9.6h22.4M4.8 16h22.4M4.8 21.6h22.4"></path>
+</symbol>
 </defs>
 </svg>

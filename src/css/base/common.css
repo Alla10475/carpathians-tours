@@ -1,11 +1,16 @@
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  color: var(--primary-color);
+  color: var(--primary-text);
 }
 
 body {
   width: 100%;
 }
+
+.icon {
+  fill: var(--light);
+}
+

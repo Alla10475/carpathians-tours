@@ -26,10 +26,20 @@ a {
 
 button {
   cursor: pointer;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--second-family);
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+section {
+  margin: 0 auto;
 }

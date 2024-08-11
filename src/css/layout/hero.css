@@ -1,0 +1,141 @@
+.hero-section {
+  padding-top: 188px;
+  padding-bottom: 193px;
+  background-image: url('../../img/hero/hero_bg_mob.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 788px;
+}
+
+.hero-title {
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light);
+  margin-bottom: 60px;
+}
+
+.hero-title-br1,
+.hero-title-br2,
+.hero-title-br3 {
+  display: none;
+}
+
+.hero-text-br {
+  display: none;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--light);
+  margin-bottom: 88px;
+  letter-spacing: 0.06em;
+}
+
+.book-btn {
+  width: 285px;
+  height: 52px;
+  background-color: var(--blue);
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--light);
+  text-transform: uppercase;
+}
+
+.social-media-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 180px;
+    padding-bottom: 185px;
+    background-image: url('../../img/hero/hero_bg_tab.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 818px;
+  }
+
+  .hero-title {
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 83px;
+    margin-bottom: 40px;
+  }
+
+  .hero-title-br1,
+  .hero-title-br3 {
+    display: inline;
+  }
+
+  .hero-text-br {
+    display: inline;
+  }
+
+  .hero-text {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    margin-bottom: 60px;
+  }
+
+  .book-btn {
+    width: 394px;
+    height: 56px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding-top: 280px;
+    padding-bottom: 293px;
+    background-image: url('../../img/hero/hero_bg_desk.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 975px;
+  }
+
+  .title {
+    font-size: 88px;
+    line-height: 107px;
+  }
+
+  .hero-title-br1,
+  .hero-title-br3 {
+    display: none;
+  }
+
+  .hero-title-br2 {
+    display: inline;
+  }
+
+  .hero-text {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .book-btn {
+    width: 575px;
+    height: 69px;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .social-media-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 256px;
+  }
+
+  .social-media-item {
+    display: flex;
+  }
+
+  .hero-wrap {
+    display: flex;
+    justify-content: end;
+  }
+}

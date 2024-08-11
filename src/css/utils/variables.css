@@ -1,4 +1,6 @@
 :root {
+    --font-family:"Montserrat", sans-serif;
+    --font-second: "Manrope", sans-serif;  
     --light: #F7FBFB;
     --primary-text: #1B1D1B;
     --secondary-text: #202321;
